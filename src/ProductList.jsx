@@ -239,6 +239,7 @@ function ProductList({ onHomeClick }) {
         fontSize: '30px',
         textDecoration: 'none',
     }
+    
 
     const handleHomeClick = (e) => {
         e.preventDefault();

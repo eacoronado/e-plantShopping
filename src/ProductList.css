@@ -74,6 +74,13 @@ body {
     gap: 20px;
 }
 
+.product-button:disabled {
+        background-color: #808080;
+        color: #ffffff;
+        cursor: not-allowed;
+        opacity: 0.7;
+    }
+
 /* Pseudo-classes - Hover effect on product button */
 .product-card:hover {
     transform: scale(1.05);
